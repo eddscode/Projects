@@ -1,0 +1,14 @@
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\bin\Debug\ReverseComplementDNA.exe.config
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\bin\Debug\ReverseComplementDNA.exe
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\bin\Debug\ReverseComplementDNA.pdb
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\ReverseComplementDNA.csprojResolveAssemblyReference.cache
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\MainWindow.g.cs
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\App.g.cs
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\ReverseComplementDNA_MarkupCompile.cache
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\ReverseComplementDNA_MarkupCompile.lref
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\MainWindow.baml
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\ReverseComplementDNA.g.resources
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\ReverseComplementDNA.Properties.Resources.resources
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\ReverseComplementDNA.csproj.GenerateResource.Cache
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\ReverseComplementDNA.exe
+C:\Users\Sophie\Edward\Github\Projects\DNA_Reverse_Complement\ReverseComplementDNA\ReverseComplementDNA\obj\Debug\ReverseComplementDNA.pdb
