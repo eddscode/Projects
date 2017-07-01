@@ -64,6 +64,11 @@ namespace ReverseComplementDNA
                 {
                     complementedString += 'C';
                 }
+                else
+                {
+                    MessageBox.Show("Please enter a valid DNA strand.");
+                    text = "";
+                }
             }
 
             return complementedString;
@@ -87,6 +92,7 @@ namespace ReverseComplementDNA
             }
             
             TextOutput.Text = text;
+            text = "";
         }
    
         private void ReverseCheckBox_Checked(object sender, RoutedEventArgs e)
@@ -118,6 +124,10 @@ namespace ReverseComplementDNA
             text = "";
             UserInputText.Text = "";
             TextOutput.Text = "";
+            isReversed = false;
+            isComplemented = false;
+            ReverseCheckBox.IsChecked = false;
+            ComplementCheckBox.IsChecked = false;
         }
     }
 }
