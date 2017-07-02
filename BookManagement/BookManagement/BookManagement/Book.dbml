@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BookManagement" Class="BookDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DAVIN\SQLEXPRESS;Initial Catalog=BookManagement;Integrated Security=True" SettingsObjectName="BookManagement.Properties.Settings" SettingsPropertyName="BookManagementConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.T_Book" Member="T_Books">
+    <Type Name="T_Book">
+      <Column Name="BookID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Author" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ISBN_Number" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Summary" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="Rating" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Created_Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
