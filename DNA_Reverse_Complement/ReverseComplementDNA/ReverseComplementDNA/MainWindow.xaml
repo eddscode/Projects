@@ -5,17 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReverseComplementDNA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="DNA Strand Conversion Tool" Height="350" Width="525">
     <Grid>
-        <TextBox x:Name="UserInputText" HorizontalAlignment="Left" Height="57" Margin="28,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="464" TextChanged="TextBox_TextChanged"/>
-        <Label Content="DNA Strand - Reverse/Complement&#xD;&#xA;" HorizontalAlignment="Left" Margin="147,10,0,0" VerticalAlignment="Top"/>
-        <Label Content="Enter a DNA strand:" HorizontalAlignment="Left" Margin="28,46,0,0" VerticalAlignment="Top"/>
-        <Button Content="Convert" HorizontalAlignment="Left" Margin="417,139,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <TextBox x:Name="TextOutput" HorizontalAlignment="Left" Height="61" Margin="28,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="464"/>
-        <Label Content="Output:" HorizontalAlignment="Left" Margin="28,186,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="ReverseCheckBox" Content="Reverse" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,139,0,0" Checked="ReverseCheckBox_Checked"/>
-        <CheckBox x:Name="ComplementCheckBox" Content="Complement" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="105,139,0,0" Checked="ComplementCheckBox_Checked"/>
-        <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="337,139,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.979,-6.26" Click="Clear_Click"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="461*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="UserInputText" HorizontalAlignment="Left" Height="57" Margin="28,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="464" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
+        <Label Content="DNA Strand - Reverse/Complement&#xD;&#xA;" HorizontalAlignment="Left" Margin="91,10,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Enter a DNA strand:" HorizontalAlignment="Left" Margin="28,46,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Button Content="Convert" HorizontalAlignment="Left" Margin="361,139,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Column="1"/>
+        <TextBox x:Name="TextOutput" HorizontalAlignment="Left" Height="61" Margin="28,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="464" Grid.ColumnSpan="2"/>
+        <Label Content="Output:" HorizontalAlignment="Left" Margin="28,186,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="ReverseCheckBox" Content="Reverse" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,139,0,0" Checked="ReverseCheckBox_Checked" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="ComplementCheckBox" Content="Complement" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,139,0,0" Checked="ComplementCheckBox_Checked" Grid.Column="1"/>
+        <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="281,139,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.979,-6.26" Click="Clear_Click" Grid.Column="1"/>
 
     </Grid>
 </Window>
