@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <TextBox x:Name="UserInputText" HorizontalAlignment="Left" Height="57" Margin="28,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="464" TextChanged="TextBox_TextChanged"/>
-        <Label Content="Reverse DNA Strand" HorizontalAlignment="Left" Margin="200,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="DNA Strand - Reverse/Complement&#xD;&#xA;" HorizontalAlignment="Left" Margin="147,10,0,0" VerticalAlignment="Top"/>
         <Label Content="Enter a DNA strand:" HorizontalAlignment="Left" Margin="28,46,0,0" VerticalAlignment="Top"/>
         <Button Content="Convert" HorizontalAlignment="Left" Margin="417,139,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <TextBox x:Name="TextOutput" HorizontalAlignment="Left" Height="61" Margin="28,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="464"/>

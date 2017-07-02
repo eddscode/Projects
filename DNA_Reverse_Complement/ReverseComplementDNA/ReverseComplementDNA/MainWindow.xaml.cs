@@ -48,19 +48,19 @@ namespace ReverseComplementDNA
 
             foreach (char c in array)
             {
-                if (c == 'A')
+                if (c == 'A' || c == 'a')
                 {
                     complementedString += 'T';
                 }
-                else if (c == 'T')
+                else if (c == 'T' || c == 't')
                 {
                     complementedString += 'A';
                 }
-                else if (c == 'C')
+                else if (c == 'C' || c == 'c')
                 {
                     complementedString += 'G';
                 }
-                else if (c == 'G')
+                else if (c == 'G' || c == 'g')
                 {
                     complementedString += 'C';
                 }
@@ -68,6 +68,7 @@ namespace ReverseComplementDNA
                 {
                     MessageBox.Show("Please enter a valid DNA strand.");
                     text = "";
+                    break;
                 }
             }
 
